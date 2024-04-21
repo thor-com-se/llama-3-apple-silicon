@@ -2,6 +2,15 @@
 
 On April 18th, [Meta released](https://ai.meta.com/blog/meta-llama-3/) the Llama 3 large language model (LLM). We can leverage the machine learning capabilities of Apple Silicon to run this model and receive answers to our questions.
 
+Quick guide:
+1. [Download Ollama](https://ollama.com/download/Ollama-darwin.zip) and install.
+2. Open a terminal and run either model version:
+   - `ollama run llama3:8b` (4.7 GB)
+   - `ollama run llama3:70b` (40 GB)
+3. Write a question and receive an answer.
+
+<br>
+
 ![Image showing example of answer by Llama 3](example.png)
 
 Example: Answer to the question "Example of a higher-order function using generic types in Swift".
